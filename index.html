@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08121a">
+  <meta name="description" content="Joy Apex Limited is a private company providing ownership, management and administrative support for privately operated assets and associated digital systems.">
+  <title>Samaya | Joy Apex Limited</title>
+  <style>
+    :root { color-scheme: dark; --cream: #f4e7d3; --gold: #ad9366; }
+    * { box-sizing: border-box; }
+    html { min-height: 100%; background: #071622; }
+    body { margin: 0; color: var(--cream); font-family: Georgia, "Times New Roman", serif; -webkit-font-smoothing: antialiased; position: relative; isolation: isolate; }
+    body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(3, 13, 21, .34), rgba(3, 13, 21, .2) 55%, rgba(3, 13, 21, .04)), url("maritime-background.jpg") center / cover no-repeat; pointer-events: none; }
+    .page { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; align-items: center; text-align: center; padding: clamp(42px, 8.3vh, 85px) 28px 38px; }
+    main { width: min(100%, 920px); margin: auto 0; }
+    .brand { display: block; width: min(100%, 550px); height: auto; overflow: visible; margin: 0 auto clamp(36px, 4.5vh, 50px); }
+    h1 { margin: 0 0 14px; font-size: clamp(32px, 4.3vw, 60px); font-weight: 400; line-height: 1.15; letter-spacing: .015em; }
+    .tagline { margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: clamp(10px, 1.22vw, 17px); line-height: 1.8; font-weight: 400; letter-spacing: .29em; text-transform: uppercase; }
+    .rule { width: 190px; height: 1px; background: var(--gold); margin: 28px auto 30px; }
+    .description { max-width: 630px; margin: 0 auto; font-size: clamp(17px, 1.6vw, 23px); line-height: 1.45; font-weight: 400; text-wrap: pretty; }
+    .contact { margin-top: clamp(38px, 4.5vh, 48px); }
+    h2 { margin: 0 0 17px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 400; letter-spacing: .3em; text-transform: uppercase; }
+    address { font-size: clamp(15px, 1.3vw, 19px); font-style: normal; line-height: 1.2; }
+    .email-rule { width: 43px; height: 1px; background: var(--gold); margin: 24px auto 12px; }
+    .email { display: inline-block; color: var(--cream); font-size: clamp(16px, 1.4vw, 20px); text-decoration: none; padding: 8px 4px; }
+    .email:hover { text-decoration: underline; text-underline-offset: 5px; }
+    .email:focus-visible { outline: 2px solid var(--cream); outline-offset: 5px; border-radius: 2px; }
+    footer { width: min(100%, 1320px); border-top: 1px solid rgba(173, 147, 102, .55); margin-top: 44px; padding-top: 19px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 400; line-height: 1.8; letter-spacing: .23em; }
+    footer p { margin: 0; }
+    @media (max-width: 600px) {
+      body::before { background-position: 65% center; background-image: linear-gradient(180deg, rgba(3, 13, 21, .28), rgba(3, 13, 21, .55)), url("maritime-background.jpg"); }
+      .page { padding: 40px 24px 25px; }
+      .brand { width: 320px; margin-bottom: 36px; }
+      h1 { font-size: clamp(29px, 7.2vw, 42px); }
+      .tagline { max-width: 330px; margin-inline: auto; font-size: 10px; letter-spacing: .23em; }
+      .rule { width: 110px; margin: 24px auto; }
+      .description { max-width: 400px; font-size: 17px; line-height: 1.55; }
+      .contact { margin-top: 34px; }
+      address { font-size: 16px; line-height: 1.4; }
+      h2 { font-size: 11px; }
+      footer { margin-top: 34px; font-size: 9px; letter-spacing: .12em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <main>
+      <header>
+        <svg class="brand" viewBox="-4 0 616 155" role="img" aria-label="Samaya" xmlns="http://www.w3.org/2000/svg">
+          <g fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M228 42 C277 30 300 -1 364 11 C315 -9 285 14 228 42 Z" fill="currentColor" stroke="none"/>
+            <path d="M132 47 C216 74 264 36 330 34 C366 32 402 42 424 60 C389 33 360 29 327 30 C253 31 215 73 132 47 Z" fill="currentColor" stroke="none"/>
+            <path d="M42 98 C22 86 9 96 12 108 C14 117 37 116 42 127 C48 144 22 149 10 139"/>
+            <path d="M111 145 L131 94 L152 145"/>
+            <path d="M224 145 V94 L249 140 L274 94 V145"/>
+            <path d="M348 145 L369 94 L390 145"/>
+            <path d="M464 94 L486 121 L508 94 M486 121 V145"/>
+            <path d="M563 145 L583 94 L604 145"/>
+          </g>
+        </svg>
+        <h1>Joy Apex Limited</h1>
+        <p class="tagline">Private Asset Ownership and Management</p>
+        <div class="rule" aria-hidden="true"></div>
+      </header>
+      <p class="description">Joy Apex Limited is a private company providing ownership, management and administrative support for privately operated assets and associated digital systems.</p>
+      <section class="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <address>
+          <span class="company">Joy Apex Limited</span><br>
+          Mount Pleasant Village<br>
+          Western Road<br>
+          Building No. 2<br>
+          Western Business Centre<br>
+          P.O. Box SP63131<br>
+          Nassau, Bahamas
+        </address>
+        <div class="email-rule" aria-hidden="true"></div>
+        <a class="email" href="mailto:admin@my-samaya.com">admin@my-samaya.com</a>
+      </section>
+    </main>
+    <footer><p>&copy; 2026 Joy Apex Limited. All rights reserved.</p></footer>
+  </div>
+</body>
+</html>
